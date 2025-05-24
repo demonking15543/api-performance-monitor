@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="apibeat",
-    version="0.1.3",
+    version="0.1.8",
     author="Vijay Rajpoot",
     author_email="demonking15543@gmail.com",
     description="Benchmarking tool to compare REST and GraphQL API performance",
@@ -22,4 +22,6 @@ setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.7',
+        keywords=["api", "benchmark", "graphql", "rest", "latency", "performance", "cli"],
+
 )

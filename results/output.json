@@ -1,11 +1,35 @@
 {
   "rest": {
-    "type": "REST",
-    "average_latency_ms": 791.5
+    "tests": [
+      {
+        "url": "https://jsonplaceholder.typicode.com/posts",
+        "method": "GET",
+        "status_code": 200,
+        "latency_ms": 562.6115798950195
+      },
+      {
+        "url": "https://jsonplaceholder.typicode.com/users",
+        "method": "GET",
+        "status_code": 200,
+        "latency_ms": 791.9981479644775
+      }
+    ],
+    "average_latency_ms": 677.3048639297485,
+    "min_latency_ms": 562.6115798950195,
+    "max_latency_ms": 791.9981479644775
   },
   "graphql": {
-    "type": "GraphQL",
-    "average_latency_ms": 956.0
+    "tests": [
+      {
+        "url": "https://graphqlzero.almansi.me/api",
+        "query": "{ users { data { id name } } }",
+        "status_code": 200,
+        "latency_ms": 3037.224531173706
+      }
+    ],
+    "average_latency_ms": 3037.224531173706,
+    "min_latency_ms": 3037.224531173706,
+    "max_latency_ms": 3037.224531173706
   },
   "winner": "REST"
 }
