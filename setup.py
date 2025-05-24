@@ -12,10 +12,10 @@ setup(
     packages=find_packages(),
     install_requires=["requests"],
     include_package_data=True,
-    entry_points={
+   entry_points={
         "console_scripts": [
-            "apibeat=cli:main"
-        ]
+            "apibeat=apibeat.cli:main",
+        ],
     },
     classifiers=[
         "Programming Language :: Python :: 3",
