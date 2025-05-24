@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="apibeat",
-    version="0.1.2",
+    version="0.1.3",
     author="Vijay Rajpoot",
     author_email="demonking15543@gmail.com",
     description="Benchmarking tool to compare REST and GraphQL API performance",
