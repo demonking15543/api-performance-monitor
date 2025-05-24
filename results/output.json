@@ -1,0 +1,11 @@
+{
+  "rest": {
+    "type": "REST",
+    "average_latency_ms": 791.5
+  },
+  "graphql": {
+    "type": "GraphQL",
+    "average_latency_ms": 956.0
+  },
+  "winner": "REST"
+}

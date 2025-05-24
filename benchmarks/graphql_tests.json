@@ -1,0 +1,7 @@
+[
+    {
+      "url": "https://graphqlzero.almansi.me/api",
+      "query": "{ users { data { id name } } }"
+    }
+  ]
+  
