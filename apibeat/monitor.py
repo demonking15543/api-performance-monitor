@@ -1,8 +1,6 @@
 import requests
 import time
-import json
 from typing import List, Dict
-
 
 def benchmark_rest(endpoints: List[Dict]) -> Dict:
     print("Benchmarking REST endpoints...")
@@ -18,7 +16,6 @@ def benchmark_rest(endpoints: List[Dict]) -> Dict:
         print(f"✔ {method} {url} -> {duration}ms ({response.status_code})")
     avg = round(total_time / len(endpoints), 2)
     return {"type": "REST", "average_latency_ms": avg}
-
 
 def benchmark_graphql(queries: List[Dict]) -> Dict:
     print("Benchmarking GraphQL endpoints...")

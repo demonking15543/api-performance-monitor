@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "apibeat"
+version = "0.1.0"
+description = "Benchmarking tool to compare REST and GraphQL API performance"
+authors = [
+    { name: "Vijay Rajpoot", email: "demonking15543@gmail.com" }
+]
+dependencies = [
+    "requests"
+]
+
+
+    
